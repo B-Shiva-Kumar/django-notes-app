@@ -22,6 +22,12 @@ docker build -t notes-app .
 docker run -d -p 8000:8000 notes-app:latest
 ```
 
+4. Configure github-webhook
+```
+# in code repo -> setting -> webhooks
+http://<jenkins-IP>:8080/github-webhook/
+```
+
 ## Nginx
 
 Install Nginx reverse proxy to make this application available
