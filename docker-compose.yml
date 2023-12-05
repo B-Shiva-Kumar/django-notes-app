@@ -1,0 +1,8 @@
+version: "3.7"
+
+services:
+  web:
+    #build: .
+    image: 72278338/noteapp:latest
+    ports:
+      - "8000:8000"
